@@ -1,17 +1,18 @@
 import React from 'react'
 import './Hero.css'
 
-const Hero = () => {
+const Hero = ({handleScroll}) => {
   return (
-    <div className='Hero'>
+    <section id="home" className='Hero'>
       <div className='heroimg'>
-<img src='https://i.postimg.cc/nc6k6JzJ/heroimg-removebg-preview.png' border='0' width='200px'  alt='heroimg-removebg-preview'/>
+<img loading='lazy' src='https://i.postimg.cc/nc6k6JzJ/heroimg-removebg-preview.png' border='0' width='200px'  alt='heroimg-removebg-preview'/>
 </div>
 <h1> <span>I'm Rashi Madan,</span> Aspiring MERN Stack developing | Passionate about Full Stack development</h1>
 <p>"Dedicated to continuous learning, embracing new technologies, and refining my skills to stay ahead in the fast-evolving web landscape."</p>
 <div className='heroAction'>
-  <button className='heroConnect'>Get in touch</button>
-  {/* <button className='heroConnect'>Download My CV</button> */}
+<button className="connect touch" onClick={() => handleScroll("Contact")}>
+  Get in touch
+</button>
   <div className="container">
         <label className="label">
           <input type="checkbox" className="input" />
@@ -25,7 +26,7 @@ const Hero = () => {
         </label>
       </div>
 </div>
-</div>
+</section>
   )
 }
 

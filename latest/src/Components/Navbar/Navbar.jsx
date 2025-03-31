@@ -1,19 +1,35 @@
-import React from 'react'
-import './Navbar.css'
-const Navbar = () => {
-  return (
-    <div className='navbar'>
-        <div className='logo'>img</div>
-      <ul className='nav-menu'>
-        <li>Home</li>
-        <li>About me</li>
-        <li>Services</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
-      <button className='connect'>Connect with me</button>
-    </div>
-  )
-}
+import React, { useRef } from "react";
+import './Navbar.css';
 
-export default Navbar
+const Navbar = ({menu,handleScroll}) => {
+const menuRef=useRef();
+const openMenu=()=>{
+  menuRef.current.style.right="0";
+}
+const closeMenu=()=>{
+  menuRef.current.style.right="-350px";
+}
+  return (
+    <div className="navbar">
+          <h1 className='logo'> <img src="/src/assets/nav_underline.svg" alt="underline" /> Rashi</h1>
+     <img onClick={openMenu}
+     src="/src/assets/menu_open.svg" className="nav-mob-open"  alt="" />
+      <ul ref={menuRef} className="nav-menu">
+        <img onClick={closeMenu}
+        src="/src/assets/menu_close.svg" alt="" className="nav-mob-close" />
+    
+        {["Home", "About me", "Services", "Portfolio", "Contact"].map((item) => (
+          <li key={item} onClick={() => handleScroll(item)}>
+            <p>{item}</p>
+            {menu === item ? <img src="/src/assets/nav_underline.svg" alt="underline" /> : null}
+          </li>
+        ))}
+      </ul>
+      <button className="connect" onClick={() => handleScroll("Contact")}>
+        Connect with me
+      </button>
+    </div>
+  );
+};
+
+export default Navbar;

@@ -4,14 +4,14 @@ import theme_pattern from '../../assets/theme_pattern.svg';
 import mywork_data from '../../assets/mywork_data'
 const Mywork = () => {
   return (
-    <div className='myWork'>
+    <section id="work" className='myWork'>
       <div className="WorkTitle">
         <h1>My Latest Work</h1>
-        <img src={theme_pattern} alt="" />
+        <img loading='lazy'  src={theme_pattern} alt="" />
         </div>
         <div className="workContainer">
              <div className="card">
-        <img className='image' src="/src/assets/shop.png" alt=""  />
+        <img loading='lazy'  className='image' src="/src/assets/shop.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -31,7 +31,7 @@ const Mywork = () => {
       </div>
       {/* card 2 */}
       <div className="card">
-        <img className='image' src="/src/assets/carpool.png" alt=""  />
+        <img loading='lazy'  className='image' src="/src/assets/carpool.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -51,7 +51,7 @@ const Mywork = () => {
       </div>
       {/* card3 */}
       <div className="card">
-        <img className='image' src="/src/assets/textEditor.png" alt=""  />
+        <img loading='lazy'  className='image' src="/src/assets/textEditor.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -71,7 +71,7 @@ const Mywork = () => {
       </div>
       {/* card4 */}
       <div className="card">
-        <img className='image' src="/src/assets/passwordGen.png" alt=""  />
+        <img loading='lazy'  className='image' src="/src/assets/passwordGen.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -91,7 +91,7 @@ const Mywork = () => {
       </div>
       {/* card 5 */}
       <div className="card">
-        <img className='image' src="/src/assets/news.png" alt=""  />
+        <img loading='lazy'  className='image' src="/src/assets/news.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -111,7 +111,7 @@ const Mywork = () => {
       </div>
       {/* card 6 */}
       <div className="card">
-        <img className='image' src="/src/assets/currencyConv.png" alt=""  />
+        <img loading='lazy'  className='image' src="/src/assets/currencyConv.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -144,7 +144,7 @@ const Mywork = () => {
           </span> 
         </a>
       </div>
-    </div>
+    </section>
   )
 }
 

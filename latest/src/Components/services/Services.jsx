@@ -4,17 +4,17 @@ import theme_pattern from '../../assets/theme_pattern.svg';
 const Services = () => {
   return (
     <div>
-       <div className='myservice'>
+       <section id="services" className='myservice'>
       <div className="serviceTitle">
         <h1>My Digital offerings</h1>
-        <img src={theme_pattern} alt="" />
+        <img loading='lazy'  src={theme_pattern} alt="" />
         </div>
         <div className="servicecontainer">
         <div className="servicecard">
         <div className="servicecard__content">
           <p className='num'>01</p>
           <h1 className='para heading'>Web Designing</h1>
-          <p className='para'>I have acquired hands-on experience in web design, mastering HTML, CSS, JavaScript</p>
+          <p className='para paragraph'>I have acquired hands-on experience in web design, mastering HTML, CSS, JavaScript</p>
           <button className="cssbuttons-io-button">
         Read more
         <div className="icon">
@@ -113,7 +113,7 @@ const Services = () => {
         </div>
 
         </div>
-    </div>
+    </section>
     </div>
   )
 }

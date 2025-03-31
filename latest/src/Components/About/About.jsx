@@ -5,14 +5,14 @@ import aboutimg from '../../assets/aboutimg.png';
 
 const About = () => {
   return (
-    <div className="about">
+    <section id="about-me" className="about">
       <div className="aboutTitle">
         <h1>About me</h1>
-        <img src={theme_pattern} alt="" />
+        <img loading='lazy' src={theme_pattern} alt="" />
       </div>
       <div className="aboutSection">
         <div className="aboutLeft">
-          <img src={aboutimg} alt="Profile" />
+          <img loading='lazy'  src={aboutimg} alt="Profile" />
         </div>
         <div className="aboutRight">
           <div className="aboutPara">
@@ -59,7 +59,7 @@ const About = () => {
             <p>HAPPY CLIENTS</p>
           </div>
         </div>
-    </div>
+    </section>
   );
 };
 export default About;
