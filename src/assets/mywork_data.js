@@ -1,5 +1,5 @@
 import myProject1 from '../assets/myproject1.png'
-import passwordGen from '../assets/passwordgen.png'
+import passwordGen from '../assets/passwordGen.png'
 import textEditor from '../assets/textEditor.png'
 import carpool from '../assets/carpool.png'
 import currencyConv from '../assets/currencyConv.png'
