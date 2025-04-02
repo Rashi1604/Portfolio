@@ -1,4 +1,4 @@
-import myProject1 from '../assets/myProject1.png'
+import myProject1 from '../assets/myproject1.png'
 import passwordGen from '../assets/passwordgen.png'
 import textEditor from '../assets/textEditor.png'
 import carpool from '../assets/carpool.png'
