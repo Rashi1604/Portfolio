@@ -1,9 +1,9 @@
-import myProject1 from '../assets/myproject1.png'
-import passwordGen from '../assets/passwordGen.png'
-import textEditor from '../assets/textEditor.png'
-import carpool from '../assets/carpool.png'
-import currencyConv from '../assets/currencyConv.png'
-import news from '../assets/news.png'
+import myProject1 from './myproject1.png'
+import passwordGen from './passwordGen.png'
+import textEditor from './textEditor.png'
+import carpool from './carpool.png'
+import currencyConv from './currencyConv.png'
+import news from './news.png'
 
 const mywork_data = [
     {

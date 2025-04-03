@@ -7,13 +7,13 @@ const Footer = () => {
     <div className='footer'>
       <div className="footerTop">
         <div className="topleft">
-              <h2 className='footlogo'> <img src="/src/assets/nav_underline.svg" alt="underline" />Rashi</h2>
+              <h2 className='footlogo'> <img src="./nav_underline.svg" alt="underline" />Rashi</h2>
 
             <p>I am a full-stack developer from, India with 6+ months of experience.</p>
         </div>
         <div className="footerRight">
             <div className="footer-email-input">
-                <img src="/src/assets/user_icon.svg" alt="" />
+                <img src="./user_icon.svg" alt="" />
                 <input type="email"  placeholder='Enter your email'/>
             </div>
             <div className="button  b"> Subscribe</div>

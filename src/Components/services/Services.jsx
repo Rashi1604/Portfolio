@@ -1,6 +1,6 @@
 import React from 'react'
 import './Services.css'
-import theme_pattern from '../../assets/theme_pattern.svg';
+import theme_pattern from '/theme_pattern.svg';
 const Services = () => {
   return (
     <div>
@@ -14,33 +14,18 @@ const Services = () => {
         <div className="servicecard__content">
           <p className='num'>01</p>
           <h1 className='para heading'>Web Designing</h1>
-          <p className='para paragraph'>I have acquired hands-on experience in web design, mastering HTML, CSS, JavaScript</p>
-          <button className="cssbuttons-io-button">
-        Read more
-        <div className="icon">
-          <svg height={24} width={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0h24v24H0z" fill="none" />
-            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor" />
-          </svg>
-        </div>
-      </button>
+          <p className='para paragraph'>I have acquired hands-on experience in web design, mastering HTML, CSS, JavaScript.</p>
         </div>
         </div>
         {/* card 2 */}
         <div className="servicecard">
         <div className="servicecard__content">
         <p className='num'>02</p>
-          <h1 className='para heading'>Frontend Development </h1>
-          <p className='para'>I specialized in crafting sleek, interactive, and user-centric </p>
-          <button className="cssbuttons-io-button">
-        Read more
-        <div className="icon">
-          <svg height={24} width={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0h24v24H0z" fill="none" />
-            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor" />
-          </svg>
-        </div>
-      </button>
+        <h1 className='para heading'>Frontend Development</h1>
+        <p className='para'>
+  I specialize in crafting sleek, interactive, and user-centric web experiences using modern technologies. 
+</p>
+
         </div>
         </div>
         {/* card 3 */}
@@ -48,16 +33,8 @@ const Services = () => {
         <div className="servicecard__content">
         <p className='num'>03</p>
           <h1 className='para heading'>Backend Development</h1>
-          <p className='para'>I architect powerful and scalable backend systems </p>
-          <button className="cssbuttons-io-button">
-        Read more
-        <div className="icon">
-          <svg height={24} width={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0h24v24H0z" fill="none" />
-            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor" />
-          </svg>
-        </div>
-      </button>
+          <p className='para'>I build secure, efficient, and scalable backend systems using modern technologies, ensuring seamless data processing, API integrations, and smooth server-side operations. </p>
+  
         </div>
         </div>
         {/* card 4 */}
@@ -65,16 +42,8 @@ const Services = () => {
         <div className="servicecard__content">
         <p className='num'>04</p>
           <h1 className='para heading'>Full-stack Development</h1>
-          <p className='para'>I am a full-stack developer, skilled in building dynamic web solutions</p>
-          <button className="cssbuttons-io-button">
-        Read more
-        <div className="icon">
-          <svg height={24} width={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0h24v24H0z" fill="none" />
-            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor" />
-          </svg>
-        </div>
-      </button>
+          <p className='para'>I develop complete web solutions by handling both frontend and backend, creating seamless and scalable applications with modern technologies for an optimal user experience.</p>
+     
         </div>
         </div>
         {/* card 5 */}
@@ -82,33 +51,17 @@ const Services = () => {
         <div className="servicecard__content">
         <p className='num'>05</p>
           <h1 className='para heading'>Content Writting</h1>
-          <p className='para'>I craft engaging, and impactful content that resonates with audiences and drives results. </p>
-          <button className="cssbuttons-io-button">
-        Read more
-        <div className="icon">
-          <svg height={24} width={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0h24v24H0z" fill="none" />
-            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor" />
-          </svg>
-        </div>
-      </button>
+          <p className='para'>I create clear, engaging, and impactful content tailored to the audience, ensuring effective communication, SEO optimization, and a compelling brand voice. </p>
+    
         </div>
         </div>
         {/* card 6 */}
         <div className="servicecard">
         <div className="servicecard__content">
         <p className='num'>06</p>
-          <h1 className='para heading'>Social Media</h1>
-          <p className='para'>I specialize in creating engaging and strategy-driven social media content that boosts brand presence </p>
-          <button className="cssbuttons-io-button">
-        Read more
-        <div className="icon">
-          <svg height={24} width={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0h24v24H0z" fill="none" />
-            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor" />
-          </svg>
-        </div>
-      </button>
+          <h1 className='para heading'>UI/UX Design</h1>
+          <p className='para'>I design intuitive, user-friendly, and visually appealing interfaces by focusing on user experience, accessibility, and modern design principles to create engaging digital products. </p>
+   
         </div>
         </div>
 

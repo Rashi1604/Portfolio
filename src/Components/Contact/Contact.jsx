@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import theme_pattern from '../../assets/theme_pattern.svg';
+import theme_pattern from '/theme_pattern.svg';
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -49,15 +49,15 @@ const Contact = () => {
           <p>I am currently available for new projects and open to collaboration opportunities. Whether you need a seamless frontend experience, a robust backend system, or a full-stack solution, I am here to deliver high-quality, scalable results.</p>
           <div className="contact-details">
             <div className="contact-detail">
-              <img loading='lazy'  src="/src/assets/mail_icon.svg" alt="Email Icon" />
+              <img loading='lazy'  src="./mail_icon.svg" alt="Email Icon" />
               <p>rashimadan@70@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <img loading='lazy'  src="/src/assets/call_icon.svg" alt="Call Icon" />
+              <img loading='lazy'  src="./call_icon.svg" alt="Call Icon" />
               <p>+91 83645-33571</p>
             </div>
             <div className="contact-detail">
-              <img loading='lazy' src="/src/assets/location_icon.svg" alt="Location Icon" />
+              <img loading='lazy' src="./location_icon.svg" alt="Location Icon" />
               <p>Patiala, Punjab</p>
             </div>
           </div>

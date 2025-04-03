@@ -11,17 +11,17 @@ const closeMenu=()=>{
 }
   return (
     <div className="navbar">
-          <h1 className='logo'> <img src="/src/assets/nav_underline.svg" alt="underline" /> Rashi</h1>
+          <h1 className='logo'> <img src="./nav_underline.svg" alt="underline" /> Rashi</h1>
      <img onClick={openMenu}
-     src="/src/assets/menu_open.svg" className="nav-mob-open"  alt="" />
+     src="./menu_open.svg" className="nav-mob-open"  alt="" />
       <ul ref={menuRef} className="nav-menu">
         <img onClick={closeMenu}
-        src="/src/assets/menu_close.svg" alt="" className="nav-mob-close" />
+        src="./menu_close.svg" alt="" className="nav-mob-close" />
     
         {["Home", "About me", "Services", "Portfolio", "Contact"].map((item) => (
           <li key={item} onClick={() => handleScroll(item)}>
             <p>{item}</p>
-            {menu === item ? <img src="/src/assets/nav_underline.svg" alt="underline" /> : null}
+            {menu === item ? <img src="./nav_underline.svg" alt="underline" /> : null}
           </li>
         ))}
       </ul>

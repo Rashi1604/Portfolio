@@ -1,7 +1,7 @@
 import React from 'react'
 import './Work.css'
-import theme_pattern from '../../assets/theme_pattern.svg';
-import mywork_data from '../../assets/mywork_data'
+import theme_pattern from '/theme_pattern.svg';
+import mywork_data from '../../../public/mywork_data'
 const Mywork = () => {
   return (
     <section id="work" className='myWork'>
@@ -11,7 +11,7 @@ const Mywork = () => {
         </div>
         <div className="workContainer">
              <div className="card">
-        <img loading='lazy'  className='image' src="/src/assets/shop.png" alt=""  />
+        <img loading='lazy'  className='image' src="./shop.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -31,7 +31,7 @@ const Mywork = () => {
       </div>
       {/* card 2 */}
       <div className="card">
-        <img loading='lazy'  className='image' src="/src/assets/carpool.png" alt=""  />
+        <img loading='lazy'  className='image' src="./carpool.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -41,7 +41,7 @@ const Mywork = () => {
           <p className="desc">
           "Designed and developed a smart carpooling platform for seamless ride-sharing, enhancing convenience, affordability, and sustainability."
           </p>
-          <a className="action" href="#">
+          <a className="action" href="https://github.com/jashan1918/carpoolProj">
             Find out more
             <span aria-hidden="true">
               →
@@ -51,7 +51,7 @@ const Mywork = () => {
       </div>
       {/* card3 */}
       <div className="card">
-        <img loading='lazy'  className='image' src="/src/assets/textEditor.png" alt=""  />
+        <img loading='lazy'  className='image' src="./textEditor.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -61,7 +61,7 @@ const Mywork = () => {
           <p className="desc">
           "Lightweight yet feature-rich, our text editor enhances productivity with smart tools and a clean interface." 
           </p>
-          <a className="action" href="#">
+          <a className="action" href="https://github.com/Rashi1604/Text-Editor">
             Find out more
             <span aria-hidden="true">
               →
@@ -71,7 +71,7 @@ const Mywork = () => {
       </div>
       {/* card4 */}
       <div className="card">
-        <img loading='lazy'  className='image' src="/src/assets/passwordGen.png" alt=""  />
+        <img loading='lazy'  className='image' src="./passwordGen.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -91,7 +91,7 @@ const Mywork = () => {
       </div>
       {/* card 5 */}
       <div className="card">
-        <img loading='lazy'  className='image' src="/src/assets/news.png" alt=""  />
+        <img loading='lazy'  className='image' src="./news.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
@@ -111,7 +111,7 @@ const Mywork = () => {
       </div>
       {/* card 6 */}
       <div className="card">
-        <img loading='lazy'  className='image' src="/src/assets/currencyConv.png" alt=""  />
+        <img loading='lazy'  className='image' src="./currencyConv.png" alt=""  />
         <div className="content">
           <a href="#">
             <span className="title">
